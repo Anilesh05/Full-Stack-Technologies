@@ -1,0 +1,57 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('login_BG1.jpg');
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+}
+
+.login {
+    border-radius: 10px;
+    border: 1px solid hsla(331, 100%, 50%, 0.536);
+    padding: 1px 0px;
+    text-align: center;
+    color: #000000;
+    box-shadow: 0 0 20px rgb(41, 116, 255);
+    background-color: rgba(212, 212, 212, 0.437);
+    backdrop-filter: blur(4px);
+}
+
+input {
+    margin-bottom: 35px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: 1px solid hsla(331, 100%, 50%, 0.536);
+    box-shadow: 0 0 20px rgb(41, 116, 255);
+    background-color: rgba(255, 255, 255, 0.432);
+    color: rgb(0, 0, 0);
+    background-size: 25px;
+    background-position: 190px 7px; 
+    background-repeat: no-repeat;
+}
+
+input#username{
+    background-image: url('user.png');
+}
+
+input#password{
+    background-image: url('password_icon.png');
+}
+
+button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 50%;
+    background-color: #ffe9c7c7;
+    border: 1px solid hsla(331, 100%, 50%, 0.536);
+    box-shadow: 0 0 20px rgb(41, 116, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
